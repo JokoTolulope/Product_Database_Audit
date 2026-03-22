@@ -263,10 +263,12 @@ This enforces the business rule: if an order is Completed, quantity cannot be NU
 
 1. Install Microsoft SQL Server (Express edition is free) and SSMS
 2. Create a new database called `PortfolioProjects`
-3. Run `schema.sql` to create the three tables
-4. Run `data_generation.sql` to populate 101 suppliers, 1,000 products, and 10,000 orders
-5. Run `audit_queries.sql` to execute all six audit queries
-6. Review findings against this README
+3. Run `Product_Database_Schema.sql` to create the three tables
+4. Run `Supplier_Data_Migration_Portfolio.sql` to populate 101 supplier records
+5. Run `Product_Data_Migration_Portfolio.sql` to populate 1,000 product records
+6. Run `Order_Data_Migration_Portfolio.sql` to populate 10,000 order records
+7. Run `product_database_audit.sql` to execute all six audit queries
+8. Review findings against this README
 
 ---
 
@@ -275,7 +277,9 @@ This enforces the business rule: if an order is Completed, quantity cannot be NU
 ```
 product-database-audit/
 │
-├── README.md               -- This file
-├── schema.sql              -- Table creation scripts
-├── data_migration.sql     -- Synthetic data insertion scripts
-└── audit_queries.sql       -- All 6 audit queries with comments
+├── README.md
+├── Product_Database_Schema.sql
+├── Supplier_Data_Migration_Portfolio.sql
+├── Product_Data_Migration_Portfolio.sql
+├── Order_Data_Migration_Portfolio.sql
+└── product_database_audit.sql
