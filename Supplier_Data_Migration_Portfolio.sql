@@ -1,3 +1,4 @@
+-- Product Database Audit System | Tolulope Jokosenumi
 --Test Data Insertion into supplier table
 USE [Portfolio Projects]
 -- First create a temp table with real supplier names
