@@ -1,5 +1,5 @@
 -- ================================================
--- Product Database Audit System
+-- Product Database Audit System | Tolulope Jokosenumi
 -- Schema Creation Script
 -- Author: Tolulope Jokosenumi
 -- ================================================
